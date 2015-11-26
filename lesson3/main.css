@@ -1,0 +1,275 @@
+html, body, .container
+{
+	margin: 0;
+	padding: 0;
+}
+/*{
+	font-family: 'Gotham Rounded';
+	scr:url(fonts/Gotham Rounded Light.otf);
+}*/
+.container, .head, .secound-section, .third-section, .fourth-section, .subscription, footer
+{
+	width: 100%;
+	font-family: Gotham Rounded, MyriadPro, Ariel;
+	font-style: bold;
+}
+.head
+{
+	background-image: url(img/background_header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.top
+{
+	width: 80%;
+	max-width: 1240px;
+	min-width: 420px;
+	margin: 0 auto;
+	padding: 5% 0;
+	text-align: center;
+}
+.top li
+{
+	padding: 0 5%;
+	display: inline;
+	text-decoration: none;
+	font-size: 20pt;
+}
+.container a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.middle
+{
+	width: 80%;
+	max-width: 1240px;
+	min-width: 420px;
+	margin: 10% auto;
+	text-align: center;
+}
+.middle h1 p
+{
+	display: block;
+}
+.middle p
+{
+	font-size: 20pt;
+}
+.middle h1
+{
+	font-size: 35pt;
+}
+.button
+{
+	background-color: #16a085;
+	color: #fff;
+	border: 10px solid #16a085;
+	border-radius: 2px;
+}
+.bottom
+{
+	width: 80%;
+	margin: 10% auto 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.bottom li
+{
+	display: inline;
+	padding: 1%;
+}
+.main, .download
+{
+	width: 80%;
+	margin: 5% auto;
+	max-width: 1240px;
+	min-width: 420px;
+}
+.secound-section, .third-section, .fourth-section
+{
+	overflow: hidden;
+}
+.left-content
+{
+	width: 30%;
+	margin: 5% 0;
+	max-height: 500px;
+	float: left;
+	text-align: left;
+}
+.left-content h3, .learn-more h3
+{
+	color: #16a085;
+	font-size: 20pt;
+}
+.left-content p, .learn-more p, .download p, .foot-menu p
+{
+	color: #373737;
+	font-size: 15pt;
+}
+.right-content
+{
+	width: 60%;
+	max-height: 500px;
+	margin: 5% 0;
+	padding-left: 10%;
+	float: left;
+}
+.right-content img
+{
+	display: block;
+	width: 100%;
+}
+.iphone
+{
+	width: 30%;
+	max-height: 500px;
+	margin: 5% 0;
+	padding: 0;
+	float: left;
+}
+.iphone img
+{
+	display: block;
+	width: 100%;
+}
+.learn-more
+{
+	width: 50%;
+	max-height: 500px;
+	margin: 5% 0;
+	float: left;
+	padding-left: 20%;
+	text-align: left;
+}
+.fourth-section
+{
+	width: 100%;
+	text-align: center;
+}
+.fourth-section h3
+{
+	color: #373737;
+	font-size: 15pt;
+}
+.fourth-section p
+{
+	color: #373737;
+	font-size: 10pt;
+}
+.fourth-section img
+{
+	display: block;
+}
+.comunity
+{
+	width: 20%;
+	max-height: 500px;
+	margin: 5% 0;
+	float: left;
+	padding-right: 5%;
+}
+.img-one
+{
+	width: 30%;
+	max-height: 500px;
+	margin: 5% 5% 0 5%;
+	float: left;
+}
+.img-two
+{
+	width: 30%;
+	max-height: 500px;
+	margin: 5% 0;
+	float: left;
+}
+.comunity img
+{
+	width: 20%;
+	margin: 0 auto;
+}
+.img-one img, .img-two img
+{
+	width: 100%;
+}
+.subscription
+{
+	background-image: url(img/subscription_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+}
+.subscription h3
+{
+	padding-top: 20%;
+	font-size: 30pt;
+}
+.input
+{
+	padding-bottom: 20%;
+}
+input[type=email]
+{
+	margin: 0;
+	padding: 0;
+	border: 10px solid #fff;
+	border-radius: 2px;
+}
+.download
+{
+	max-height: 500px;
+	text-align: center;
+}
+.download h3
+{
+	color: #373737;
+	font-size: 20pt;
+}
+footer
+{
+	width: 80%;
+	margin: 5% auto 0 auto;
+	overflow: hidden;
+}
+.foot-menu
+{
+	padding: 0;
+	float: left;
+	width: 90%;
+}
+.foot-menu ul
+{
+	padding: 0;
+}
+.foot-menu li
+{
+	padding:0 1%;
+	text-decoration: none;
+	text-align: center;
+	border-left: 1px #16a085 solid;
+	color: #373737;
+	display: inline;
+}
+.foot-menu li:first-of-type
+{
+	padding-left: 0;
+	border: none;
+}
+.foot-menu a
+{
+	color: #373737;
+}
+.photo-icon
+{
+	padding: 5% 0;
+	width: 10%;
+	float: left;
+}
+.photo-icon img
+{
+	display: block;
+	width: 50%;
+}

@@ -1,0 +1,64 @@
+.top li
+{
+	font-size: 15pt;
+}
+.middle p
+{
+	font-size: 15pt;
+}
+.middle h1
+{
+	font-size: 28pt;
+}
+.left-content h3, .learn-more h3
+{
+	font-size: 15pt;
+}
+
+.left-content p, .learn-more p, .download p, .foot-menu p
+{
+	font-size: 10pt;
+}
+.button
+{
+	background-color: #16a085;
+	color: #fff;
+	border: 5px solid #16a085;
+	border-radius: 2px;
+}
+.left-content
+{
+	max-height: 250px;
+}
+.right-content
+{
+	max-height: 250px;
+}
+.iphone
+{
+	max-height: 250px;
+}
+.learn-more
+{
+	max-height: 250px;
+}
+.comunity
+{
+	max-height: 250px;
+}
+.img-one
+{
+	max-height: 250px;
+}
+.img-two
+{
+	max-height: 250px;
+}
+.download
+{
+	max-height: 250px;
+}
+.comunity
+{
+	max-height: 250px;
+}
